@@ -35,7 +35,29 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1">
+
+            <Button
+                android:text="Copy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/keypadCopy" />
+            <Button
+                android:text="C"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/keypadC" />
+            <Button
+                android:text="AC"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/keypadAC" />
+            <Button
+                android:text="BS"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/keypadBS" />
+        </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
